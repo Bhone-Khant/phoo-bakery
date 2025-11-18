@@ -3,7 +3,7 @@
 import Link from 'next/link';
 // Style တွေလည်း ဒီမှာ import လုပ်နိုင်ပါတယ် (ဥပမာ- Tailwind CSS)
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="my">
       <body>
